@@ -20,6 +20,11 @@ module.exports = {
         Figtree : ['Figtree'],
         FigtreeItalic : ['Figtree-Italic']
       },
+      boxShadow:
+      {
+        'normal': '10px 10px hsl(0, 0%, 7%)',
+        'hover': '15px 15px hsl(0, 0%, 7%)'
+      }
     },
   },
   plugins: [],

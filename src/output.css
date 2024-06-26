@@ -2355,6 +2355,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-normal {
+  --tw-shadow: 10px 10px hsl(0, 0%, 7%);
+  --tw-shadow-colored: 10px 10px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2586,6 +2592,12 @@ video {
 .hover\:text-primary-yellow:hover {
   --tw-text-opacity: 1;
   color: hsl(47 88% 63% / var(--tw-text-opacity));
+}
+
+.hover\:shadow-hover:hover {
+  --tw-shadow: 15px 15px hsl(0, 0%, 7%);
+  --tw-shadow-colored: 15px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .before\:hover\:text-center:hover::before {
