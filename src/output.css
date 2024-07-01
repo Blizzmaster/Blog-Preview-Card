@@ -1796,10 +1796,6 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-b-\[0\.5rem\] {
-  border-bottom-width: 0.5rem;
-}
-
 .border-e {
   border-inline-end-width: 1px;
 }
@@ -1810,10 +1806,6 @@ video {
 
 .border-r {
   border-right-width: 1px;
-}
-
-.border-r-\[0\.5rem\] {
-  border-right-width: 0.5rem;
 }
 
 .border-s {
